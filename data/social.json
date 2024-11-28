@@ -1,0 +1,24 @@
+{
+  "main": [
+    {
+      "name": "facebook",
+      "icon": "fab fa-facebook",
+      "link": "https://www.facebook.com/1fpga"
+    },
+    {
+      "name": "twitter",
+      "icon": "fab fa-twitter",
+      "link": "https://twitter.com/1fpga"
+    },
+    {
+      "name": "github",
+      "icon": "fab fa-github",
+      "link": "https://www.github.com/1fpga"
+    },
+    {
+      "name": "bluesky",
+      "icon": "fab fa-bluesky",
+      "link": "https://1fpga.bsky.social/"
+    }
+  ]
+}
