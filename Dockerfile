@@ -1,5 +1,5 @@
 # Description: Dockerfile for Hugo
-FROM peaceiris/hugo:v0.113.0-mod
+FROM peaceiris/hugo:latest-mod
 
 WORKDIR /app
 COPY . /app
