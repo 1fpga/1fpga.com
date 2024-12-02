@@ -1,4 +1,4 @@
-module hugoplate.netlify.app
+module 1fpga.com
 
 go 1.21
 
