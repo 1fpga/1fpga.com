@@ -4,4 +4,4 @@ FROM hugomods/hugo:latest
 WORKDIR /app
 COPY . /app
 RUN npm install
-RUN hugo -d public
+RUN hugo --minify
