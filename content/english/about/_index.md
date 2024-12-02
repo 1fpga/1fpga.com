@@ -1,9 +1,9 @@
 ---
-title: "Hey, I am John Doe!"
+title: "About Me"
 meta_title: "About"
-description: "this is meta description"
-image: "/images/avatar.png"
+description: ""
+image: "/images/avatar-hansl.jpg"
 draft: false
 ---
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis illum nesciunt commodi vel nisi ut alias excepturi ipsum, totam, labore tempora, odit ex iste tempore sed. Fugit voluptatibus perspiciatis assumenda nulla ad nihil, omnis vel, doloremque sit quam autem optio maiores, illum eius facilis et quo consectetur provident dolor similique! Enim voluptatem dicta expedita veritatis repellat dolorum impedit, provident quasi at.
+Hans Larsen is the creator of the 1FPGA project, and the mean engineering lead behind it. He has over 30 years of experience in frontend, backend and embedded development. He is a passionate gamer and a hardware enthusiast and collector. He is also a father of two and a husband. He is a strong advocate for open-source software and hardware, and believes that the future of gaming is in the hands of the community.

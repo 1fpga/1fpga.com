@@ -25,28 +25,28 @@ features:
       label: "Get Started Now"
       link: "#"
 
-  - title: "Discover the Key Features Of Hugo"
-    image: "/images/service-2.png"
-    content: "Hugo is an all-in-one web framework for building fast, content-focused websites. It offers a range of exciting features for developers and website creators. Some of the key features are:"
+  - title: "Hardware Emulation"
+    image: "/images/de10-nano.jpg"
+    content: "Using FPGA to execute your games means you get the best of both worlds: the accuracy of hardware emulation and the flexibility of software emulation."
     bulletpoints:
-      - "Zero JS, by default: No JavaScript runtime overhead to slow you down."
-      - "Customizable: Tailwind, MDX, and 100+ other integrations to choose from."
-      - "UI-agnostic: Supports React, Preact, Svelte, Vue, Solid, Lit and more."
+      - "**Low latency** and **high accuracy** for a true-to-life gaming experience."
+      - "**Support for a wide range of systems**, from classic consoles to arcade machines."
+      - "**Customizable** to suit your needs, with support for custom cores and configurations."
     button:
-      enable: true
+      enable: false
       label: "Get Started Now"
       link: "https://github.com/zeon-studio/hugoplate"
 
-  - title: "The Top Reasons to Choose Hugo for Your Hugo Project"
-    image: "/images/service-3.png"
-    content: "With Hugo, you can build modern and content-focused websites without sacrificing performance or ease of use."
-    bulletpoints:
-      - "Instantly load static sites for better user experience and SEO."
-      - "Intuitive syntax and support for popular frameworks make learning and using Hugo a breeze."
-      - "Use any front-end library or framework, or build custom components, for any project size."
-      - "Built on cutting-edge technology to keep your projects up-to-date with the latest web standards."
-    button:
-      enable: false
-      label: ""
-      link: ""
+#  - title: "The Top Reasons to Choose Hugo for Your Hugo Project"
+#    image: "/images/service-3.png"
+#    content: "With Hugo, you can build modern and content-focused websites without sacrificing performance or ease of use."
+#    bulletpoints:
+#      - "Instantly load static sites for better user experience and SEO."
+#      - "Intuitive syntax and support for popular frameworks make learning and using Hugo a breeze."
+#      - "Use any front-end library or framework, or build custom components, for any project size."
+#      - "Built on cutting-edge technology to keep your projects up-to-date with the latest web standards."
+#    button:
+#      enable: false
+#      label: ""
+#      link: ""
 ---

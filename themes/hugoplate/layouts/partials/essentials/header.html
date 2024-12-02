@@ -95,14 +95,16 @@
           </li>
         {{ end }}
       {{ end }}
-      {{ if site.Params.navigation_button.enable }}
-        <li class="mt-4 inline-block lg:hidden">
-          <a
-            class="btn btn-outline-primary btn-sm"
-            href="{{ site.Params.navigation_button.link | relLangURL }}">
-            {{ site.Params.navigation_button.label }}
-          </a>
-        </li>
+      {{ range site.Params.navigation_button }}
+        {{ if .enable }}
+          <li class="mt-4 inline-block lg:hidden">
+            <a
+              class="btn btn-outline-primary btn-sm"
+              href="{{ .link | relLangURL }}">
+              {{ .label }}
+            </a>
+          </li>
+        {{ end }}
       {{ end }}
     </ul>
 
@@ -111,7 +113,7 @@
         {{ if .enable }}
           <button
             aria-label="search"
-            {{ if and (not site.Params.navigation_button.enable) (not site.Params.theme_switcher)}}
+            {{ if (not site.Params.theme_switcher)}}
             class="border-border text-dark hover:text-primary dark:border-darkmode-border mr-5 inline-block border-r lg:border-r-0 pr-5 lg:pr-0 text-xl dark:text-white dark:hover:text-darkmode-primary"
             {{ else }}
             class="border-border text-dark hover:text-primary dark:border-darkmode-border mr-5 inline-block border-r pr-5 text-xl dark:text-white dark:hover:text-darkmode-primary"
@@ -127,12 +129,14 @@
 
 
       <!-- navigation btn -->
-      {{ if site.Params.navigation_button.enable }}
+      {{ range site.Params.navigation_button }}
+      {{ if .enable }}
         <a
-          href="{{ site.Params.navigation_button.link | relLangURL }}"
-          class="btn btn-outline-primary btn-sm hidden lg:inline-block">
-          {{ site.Params.navigation_button.label }}
+          href="{{ .link | relLangURL }}"
+          class="mx-2 btn btn-outline-primary btn-sm hidden lg:inline-block {{ .class }}">
+          {{ .label }}
         </a>
+      {{ end }}
       {{ end }}
     </div>
   </nav>

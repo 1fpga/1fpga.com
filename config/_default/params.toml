@@ -27,7 +27,7 @@ google_adsense = ""     # example: ca-pub-xxxxxxxxxxxxxxxx
 # custom script on header, example: custom_script= "<script>console.log(\"Hello World\")</script>"
 custom_script = ""
 # copyright
-copyright = "Designed & Developed by [Zeon Studio](https://zeon.studio)"
+copyright = "1FPGA and 1retro © 2024"
 
 # Preloader
 # preloader module: https://github.com/gethugothemes/hugo-modules/tree/master/components/preloader
@@ -35,11 +35,21 @@ copyright = "Designed & Developed by [Zeon Studio](https://zeon.studio)"
 enable = false
 preloader = "" # use jpg, png, svg or gif format.
 
-# Navigation button
-[navigation_button]
+# Navigation buttons
+[[navigation_button]]
 enable = true
-label = "GitHub"
-link = "http://hello"
+label = "Get Started"
+link = "https://forums.1fpga.com/t/13"
+
+#[[navigation_button]]
+#enable = true
+#label = "Forums"
+#link = "http://forums.1fpga.com"
+#
+#[[navigation_button]]
+#enable = true
+#label = "GitHub"
+#link = "http://github.com/1fpga/"
 
 # search
 # search module: https://github.com/gethugothemes/hugo-modules/tree/master/search
@@ -64,11 +74,11 @@ show_categories = true
 [metadata]
 keywords = ["1FPGA", "FPGA", "Emulation", "Gaming", "Hugo"]
 description = "Emulation Frontend for FPGA Gaming"
-author = "Hans Larsen"
+author = "Hans Larsen <hansl@1fpga.com>"
 twitter = "1fpga"
 bluesky = "1fpga.bsky.social"
 github = "1fpga"
-image = "images/og-image.png"
+image = "images/logo.png"
 
 
 # site verifications
