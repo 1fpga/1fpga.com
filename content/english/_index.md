@@ -2,8 +2,8 @@
 # Banner
 banner:
   title: "1FPGA"
-  content: "A better frontend for FPGA Emulation and Gaming."
-  image: "/images/banner.jpg"
+  content: "A new frontend for FPGA Emulation and Gaming. Focus on your games, not on your hardware."
+  image: "/images/banner.webp"
   button:
     enable: true
     label: "Get Started on your DE10-Nano"
@@ -11,16 +11,15 @@ banner:
 
 # Features
 features:
-  - title: "What's Included in Hugoplate"
-    image: "/images/service-1.png"
-    content: "Hugoplate is a comprehensive starter template that includes everything you need to get started with your Hugo project. What's Included in Hugoplate"
+  - title: "Gaming First"
+    image: "/images/ease-of-use.webp"
+    content: "1FPGA is designed to be easy to use, with a simple and intuitive interface that puts your game (and your gaming) first."
     bulletpoints:
-      - "10+ Pre-build pages"
-      - "95+ Google Pagespeed Score"
-      - "Build with Hugo and TailwindCSS for easy and customizable styling"
-      - "Fully responsive on all devices"
-      - "SEO-optimized for better search engine rankings"
-      - "**Open-source and free** for personal and commercial use"
+      - "**Download cores** and **play** your favorite games in minutes."
+      - "**Organize** your games with tags and playlists."
+      - "Keep your system up-to-date with **automatic updates**."
+      - "**Customize** your gaming experience with a range of settings and options."
+      - "**Free and open-source software**, with no ads or tracking."
     button:
       enable: false
       label: "Get Started Now"

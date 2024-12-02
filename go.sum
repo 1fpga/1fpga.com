@@ -1,3 +1,7 @@
+github.com/FortAwesome/Font-Awesome v0.0.0-20210316185733-d79d85c3fad8/go.mod h1:IUgezN/MFpCDIlFezw3L8j83oeiIuYoj28Miwr/KUYo=
+github.com/FortAwesome/Font-Awesome v0.0.0-20210804190922-7d3d774145ac/go.mod h1:IUgezN/MFpCDIlFezw3L8j83oeiIuYoj28Miwr/KUYo=
+github.com/deining/hugo-mod-font-awesome-scss v1.15.4 h1:uZTPkPWhuBczh2CU1AkwORDxmL4HFfHVyNMs6QEd8Kw=
+github.com/deining/hugo-mod-font-awesome-scss v1.15.4/go.mod h1:w1xhGWSj/tozFzLH3na6d+Ptv7ahW9XArWet4ZTVk6A=
 github.com/gethugothemes/hugo-modules/accordion v0.0.0-20240925042433-d2b5d05977e8 h1:glx/9W1+SUOc3YQROIA59CBr6myIo3gzsJysJJaQe/A=
 github.com/gethugothemes/hugo-modules/accordion v0.0.0-20240925042433-d2b5d05977e8/go.mod h1:D4DpauKPDcUHI9CVKYmJeO6bkSJIhUN864TyXZ2o0VI=
 github.com/gethugothemes/hugo-modules/adsense v0.0.0-20240925042433-d2b5d05977e8 h1:ewKsG7Nfk55KHJbOLiRNHu01UURu6fS6RWA2RY6S8k4=
@@ -44,6 +48,8 @@ github.com/gethugothemes/hugo-modules/table-of-contents v0.0.0-20240925042433-d2
 github.com/gethugothemes/hugo-modules/table-of-contents v0.0.0-20240925042433-d2b5d05977e8/go.mod h1:bEDw4veccQQQYEdVrfu13ATRUWfW8ptDIjJZuhYh4Tw=
 github.com/gethugothemes/hugo-modules/videos v0.0.0-20240925042433-d2b5d05977e8 h1:0nNuE80/NDYplmQPj0lB0O5xUUdC13qHnxcaMOOul9E=
 github.com/gethugothemes/hugo-modules/videos v0.0.0-20240925042433-d2b5d05977e8/go.mod h1:P722lLWdnNhdZVq6gvMrOLqECUwrAYQWaOWlChta5H0=
+github.com/hugo-mods/icons v0.0.0-20220508080705-d938a1900b1c h1:BHTy85KaX2uQnC+1i5NRVAxiJNOwpIwQXlY/zpLD6zA=
+github.com/hugo-mods/icons v0.0.0-20220508080705-d938a1900b1c/go.mod h1:sPodUyqumOYz75PKIwmqOYZXLIcLAujn7V9+1Hk4VW8=
 github.com/hugomods/mermaid v0.1.4 h1:/u0FZRSBMpqTbDh4XPBL7c6p0DUjvIkoo9cC89GASSI=
 github.com/hugomods/mermaid v0.1.4/go.mod h1:GOID2Ko1vdrX03ZMaFNQL/vdTU1tZmGcVjOgBN8O42Y=
 github.com/zeon-studio/hugoplate v0.0.0-20240925044951-fe74d0e62893 h1:D2drMHHpg2oWAPzAS1CoEH7h/14KzrZ9YsJ8mN2TRNg=

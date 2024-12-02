@@ -3,6 +3,7 @@ module hugoplate.netlify.app
 go 1.21
 
 require (
+	github.com/deining/hugo-mod-font-awesome-scss v1.15.4 // indirect
 	github.com/gethugothemes/hugo-modules/accordion v0.0.0-20240925042433-d2b5d05977e8 // indirect
 	github.com/gethugothemes/hugo-modules/adsense v0.0.0-20240925042433-d2b5d05977e8 // indirect
 	github.com/gethugothemes/hugo-modules/components/announcement v0.0.0-20240925042433-d2b5d05977e8 // indirect
@@ -26,6 +27,7 @@ require (
 	github.com/gethugothemes/hugo-modules/tab v0.0.0-20240925042433-d2b5d05977e8 // indirect
 	github.com/gethugothemes/hugo-modules/table-of-contents v0.0.0-20240925042433-d2b5d05977e8 // indirect
 	github.com/gethugothemes/hugo-modules/videos v0.0.0-20240925042433-d2b5d05977e8 // indirect
+	github.com/hugo-mods/icons v0.0.0-20220508080705-d938a1900b1c // indirect
 	github.com/hugomods/mermaid v0.1.4 // indirect
 	github.com/zeon-studio/hugoplate v0.0.0-20240925044951-fe74d0e62893 // indirect
 )
