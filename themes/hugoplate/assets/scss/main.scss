@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @import "base";
+}
+
+@layer components {
+  @import "components";
+  @import "navigation";
+  @import "buttons";
+}
+
+@layer utilities {
+  @import "utilities";
+}
+
+@import "search";
+@import "social-share";
+@import "gallery-slider";
+@import "images";
+@import "toc";
+@import "tab";
+@import "accordion";
+@import "modal";
+@import "notice";
+
+@import "module-overrides";
+@import "custom";
+
+@font-face {
+  font-family: "Font Awesome 6 Brands";
+  font-style: normal;
+  font-weight: 400;
+  font-display: block;
+  src: url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/webfonts/fa-brands-400.woff2") format("woff2"),
+  url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/webfonts/fa-brands-400.ttf") format("truetype");
+}
+
+.fab,
+.fa-brands {
+  font-weight: 400;
+}
+
+.fa-bluesky-square:before {
+  content: "\f081";
+}
+
+.fa-bluesky:before {
+  content: "\e671";
+}
