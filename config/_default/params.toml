@@ -38,8 +38,8 @@ preloader = "" # use jpg, png, svg or gif format.
 # Navigation buttons
 [[navigation_button]]
 enable = true
-label = "Get Started"
-link = "https://forums.1fpga.com/t/13"
+label = "Join Our Discord"
+link = "https://discord.gg/MXqP6cSHVS"
 
 #[[navigation_button]]
 #enable = true
